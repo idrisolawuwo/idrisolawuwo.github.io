@@ -786,6 +786,40 @@ nav a:hover {
     transform: translateY(-2px);
 }
 
+/* ---------- SOCIAL MEDIA HEALTH POSTS ---------- */
+
+.social-post-links {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 25px;
+}
+
+.social-post-links .publication-button {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+
+    padding: 10px 16px;
+
+    color: var(--white);
+    background: var(--primary);
+
+    border-radius: 8px;
+
+    font-size: 0.85rem;
+    font-weight: 700;
+
+    transition:
+        transform 0.25s ease,
+        box-shadow 0.25s ease;
+}
+
+.social-post-links .publication-button:hover {
+    transform: translateY(-2px);
+    box-shadow: var(--shadow);
+}
+
 
 /* ---------- EDUCATION ---------- */
 
